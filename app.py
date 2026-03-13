@@ -23,7 +23,7 @@ Age = st.slider("Age", 0, 80, 25)
 SibSp = st.number_input("Number of sibling/Spouse you're travelling with", 0,10,0)
 Parch = st.number_input("Number of parents/childrens you're travelling with", 0,10,0)
 Fare = st.number_input("Fare", 0.0, 600.0, 18.0)
-Embarked = st.selectbox("Port of boarding (S = Southampton (England), C = Cherbourg (France), Q = Queenstown (now Cobh, Ireland)", ['S', 'C', 'Q    '])
+Embarked = st.selectbox("Port of boarding (S = Southampton (England), C = Cherbourg (France), Q = Queenstown (now Cobh, Ireland)", ['S', 'C', 'Q'])
 
 
 data = {'Pclass': Pclass,
