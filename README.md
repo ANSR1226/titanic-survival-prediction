@@ -4,13 +4,6 @@ Predict whether a passenger would have survived the Titanic using a machine lear
 
 ***
 
-## 🌐 Live Demo
-
-> Deployed on Streamlit: `https://your-app-url.streamlit.app`  
-_Update this with your real link._
-
-***
-
 ## 📌 Project Overview
 
 This project tackles the classic Titanic dataset and builds an end‑to‑end machine learning pipeline to predict passenger survival.  
