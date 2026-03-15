@@ -43,8 +43,8 @@ You can inspect the full workflow in the notebook: `titanic_survive.ipynb` (or y
 1. **Clone the repository**
 
 ```bash
-git clone https://github.com/your-username/your-repo-name.git
-cd your-repo-name
+git clone https://github.com/ANSR1226/titanic-survial-prediction.git
+cd titanic-survial-prediction
 ```
 
 2. **Create a virtual environment (optional but recommended)**
@@ -84,19 +84,7 @@ streamlit run app.py
 ├── requirements.txt       # Project dependencies
 └── LICENSE                # MIT license
 ```
-
 ***
-
-## 🚀 Deployment
-
-This app is deployed on **Streamlit Community Cloud**:
-
-- The app pulls code and `titanic_model.pkl` directly from this GitHub repository.
-- `requirements.txt` pins versions for Streamlit, scikit‑learn, numpy, pandas, and joblib to ensure the model loads correctly on the server.
-You can fork this repo and deploy your own version by connecting it to Streamlit Cloud.
-
-***
-
 ## 🧪 Future Improvements
 
 - Try different models (Gradient Boosting, XGBoost, etc.) and compare performance.  
